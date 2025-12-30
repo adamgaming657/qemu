@@ -1,6 +1,6 @@
 {
-  "name": "windows",
-  "service": "windows",
+  "name": "qemu",
+  "service": "qemu",
   "forwardPorts": [8006],
   "dockerComposeFile": "compose.yml"
 }
