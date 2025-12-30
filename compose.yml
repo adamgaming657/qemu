@@ -3,7 +3,10 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "mint"
+      BOOT: "https://archive.org/download/androidx86-10-isos/Android%2010%20x64%20%28Eng%29.iso"
+      RAM_SIZE: "8G"
+      CPU_CORES: "4"
+      DISK_SIZE: "30G"
     devices:
       - /dev/kvm
       - /dev/net/tun
