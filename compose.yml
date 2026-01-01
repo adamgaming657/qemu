@@ -3,7 +3,7 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "https://archive.org/download/blissosfiles2022/android_x86_64-a12.1_r1-03.16.22-01-mesa22-ksu-gapps-libndk-sd.iso"
+      BOOT: "https://archive.org/download/Bliss-v15.9-x86_64-OFFICIAL-gapps-20240114/Bliss-v15.9-x86_64-OFFICIAL-gapps-20240114.iso"
       RAM_SIZE: "8G"
       CPU_CORES: "4"
       DISK_SIZE: "30G"
