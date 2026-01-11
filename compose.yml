@@ -3,7 +3,7 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "https://mirror.clarkson.edu/linux-lite/isos/7.8/rc1/linux-lite-7.8-rc1-64bit.iso"
+      BOOT: "https://cdn77.cachyos.org/ISO/desktop/251129/cachyos-desktop-linux-251129.iso"
       RAM_SIZE: "8G"
       CPU_CORES: "4"
       DISK_SIZE: "30G"
